@@ -5,8 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Akan Name</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" type="text.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <form action="/action_page.php">
+    <h3>Date of birth</h3>
+    <label for="day" class="mr-sm-2">Day:</label>
+    <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter day you were born" id="day">
+
+    <label for="month" class="mr-sm-2">Month:</label>
+    <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter month you were born" id="month">
+
+    <label for="year" class="mr-sm-2">Year:</label>
+    <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter your year of birth" id="year">
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <script src="js/script.js"></script>
 </body>
 </html>

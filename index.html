@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Akan Name</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css" type="text.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Akan Name</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <head class=jumbotron>
-    <h1>myAkanName</h1>
-  </head>
-  <form action="/action_page.php">
-    <h3>Date of birth</h3>
-    <label for="day" class="mr-sm-2">Day:</label>
-    <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter day you were born" id="day">
+    <header class=jumbotron>
+        <h1>myAkanName</h1>
+    </header>
+    <div class="container-fluid">
+    <form action="/action_page.php">
+        <h3>Date of birth</h3>
+        <label for="day" class="mr-sm-2">Day:</label>
+        <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter day you were born" id="day">
 
-    <label for="month" class="mr-sm-2">Month:</label>
-    <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter month you were born" id="month">
+        <label for="month" class="mr-sm-2">Month:</label>
+        <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter month you were born" id="month">
 
-    <label for="year" class="mr-sm-2">Year:</label>
-    <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter your year of birth" id="year">
+        <label for="year" class="mr-sm-2">Year:</label>
+        <input type="number" class="form-control mb-2 mr-sm-2" placeholder="Enter your year of birth" id="year">
+        <br>
 
-    <h3>Gender</h3>
-    <div class="form-check-inline">
-    
-      <label class="form-check-label" for="radio1">
-        <input type="radio" class="form-check-input" id="male" name="gender" value="male"> Male
-      </label>
+        <h3>Gender</h3>
+        <div class="form-check-inline">
+
+            <label class="form-check-label" for="radio1">
+                <input type="radio" class="form-check-input" id="male" name="gender" value="male"> Male
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label" for="radio2">
+                <input type="radio" class="form-check-input" id="female" name="gender" value="female"> Female </label>
+        </div>
+        <br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     </div>
-    <div class="form-check-inline">
-      <label class="form-check-label" for="radio2">
-        <input type="radio" class="form-check-input" id="female" name="gender" value="female"> Female </label>
+    <div>
+    <p id="output" class="container-fluid"></p>
     </div>
-    <br>
-    
-    <button type="submit" class="btn btn-primary" >Submit</button>
-  </form>
-  <footer class="jumbotron">
-    <p>Contact us</p>
+    <footer class="jumbotron">
+        <p>Contact us</p>
 
-  </footer>
-  <script src="js/script.js"></script>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <head class=jumbotron>
+    <h1>myAkanName</h1>
+  </head>
   <form action="/action_page.php">
     <h3>Date of birth</h3>
     <label for="day" class="mr-sm-2">Day:</label>
@@ -30,17 +33,21 @@
     <div class="form-check-inline">
     
       <label class="form-check-label" for="radio1">
-        <input type="radio" class="form-check-input" id="male" name="optradio" value="male"> Male
+        <input type="radio" class="form-check-input" id="male" name="gender" value="male"> Male
       </label>
     </div>
     <div class="form-check-inline">
       <label class="form-check-label" for="radio2">
-        <input type="radio" class="form-check-input" id="female" name="optradio" value="female"> Female </label>
+        <input type="radio" class="form-check-input" id="female" name="gender" value="female"> Female </label>
     </div>
     <br>
     
     <button type="submit" class="btn btn-primary" >Submit</button>
   </form>
+  <footer class="jumbotron">
+    <p>Contact us</p>
+
+  </footer>
   <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,3 +1,16 @@
 .jumbotron{
-  background-color: #f48498;
+  background-color: #c884a6;
+  text-align: center;
+}
+.jumbotron h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: #e7bbe3;
+}
+.container-fluid{
+  background-color: #ccd5ff;
+  margin-right: 50px;
+  margin-left: 30px;
+  border: solid 2px #ffeaae;
 }

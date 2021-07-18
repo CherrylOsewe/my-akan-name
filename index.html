@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" type="text.css" />
-    <link rel="stylesheet" href="css/style.css" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -23,86 +23,92 @@
     <header class="jumbotron">
       <h1>myAkanName</h1>
     </header>
-    <p class="container-fluid">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper at
-      elit sed molestie. Nullam consequat quis tellus a efficitur. Donec in
-      augue sed sem sagittis efficitur. Maecenas ut mauris nec risus mollis
-      fringilla id vitae eros. Quisque at laoreet libero. Aenean vehicula at
-      magna quis convallis. Nam at imperdiet est. Fusce semper, purus nec
-      feugiat iaculis, quam tortor tincidunt elit, non facilisis justo nisl et
-      erat. Nam condimentum convallis ipsum at blandit. Aenean vitae ex
-      accumsan, cursus lacus a, egestas nunc. Nullam nunc leo, vehicula vitae
-      purus eu, pretium dapibus enim. Duis eu ipsum nibh. Duis imperdiet auctor
-      dolor, ut feugiat augue condimentum ut. Nunc id ex vel purus tempus
-      gravida. Aenean sit amet ornare dui, et sollicitudin dui.
-    </p>
-    <div class="container-fluid">
-      <form class="form-group">
-        <h3>Date of birth</h3>
-        <label for="day" >Day:</label>
-        <input
-          type="number"
-          class="form-control mb-2 mr-sm-2"
-          placeholder="Enter day you were born"
-          id="day"
-        />
+    <main>
+      <p class="container-fluid">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper at
+        elit sed molestie. Nullam consequat quis tellus a efficitur. Donec in
+        augue sed sem sagittis efficitur. Maecenas ut mauris nec risus mollis
+        fringilla id vitae eros. Quisque at laoreet libero. Aenean vehicula at
+        magna quis convallis. Nam at imperdiet est. Fusce semper, purus nec
+        feugiat iaculis, quam tortor tincidunt elit, non facilisis justo nisl et
+        erat. Nam condimentum convallis ipsum at blandit. Aenean vitae ex
+        accumsan, cursus lacus a, egestas nunc. Nullam nunc leo, vehicula vitae
+        purus eu, pretium dapibus enim. Duis eu ipsum nibh. Duis imperdiet
+        auctor dolor, ut feugiat augue condimentum ut. Nunc id ex vel purus
+        tempus gravida. Aenean sit amet ornare dui, et sollicitudin dui.
+      </p>
+      <div class="container-fluid">
+        <form class="form-group">
+          <h3>Date of birth</h3>
+          <label for="day">Day:</label>
+          <input
+            type="number"
+            class="form-control mb-2 mr-sm-2"
+            placeholder="Enter day you were born"
+            id="date"
+          />
+          <h2 id="limitDay"></h2>
+          <label for="month">Month:</label>
+          <input
+            type="number"
+            class="form-control mb-2 mr-sm-2"
+            placeholder="Enter month you were born"
+            id="month"
+          />
+          <h2 id="limitMonth"></h2>
+          <label for="year">Year:</label>
+          <input
+            type="number"
+            class="form-control mb-2 mr-sm-2"
+            placeholder="Enter your year of birth"
+            id="year"
+          />
+          <br />
 
-        <label for="month" >Month:</label>
-        <input
-          type="number"
-          class="form-control mb-2 mr-sm-2"
-          placeholder="Enter month you were born"
-          id="month"
-        />
+          <h3>Gender</h3>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="male">
+              <input
+                type="radio"
+                class="form-check-input"
+                id="genderM"
+                name="gender"
+                value="male"
+              />
 
-        <label for="year" >Year:</label>
-        <input
-          type="number"
-          class="form-control mb-2 mr-sm-2"
-          placeholder="Enter your year of birth"
-          id="year"
-        />
-        <br />
+              Male
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="female">
+              <input
+                type="radio"
+                class="form-check-input"
+                id="genderF"
+                name="gender"
+                value="female"
+              />
 
-        <h3>Gender</h3>
-        <div class="form-check-inline">
-          <label class="form-check-label" for="radio1">
-            <input
-              type="radio"
-              class="form-check-input"
-              id="gender"
-              name="gender"
-              value="male"              
-            />
-            Male
-          </label>
-        </div>
-        <div class="form-check-inline">
-          <label class="form-check-label" for="radio2">
-            <input
-              type="radio"
-              class="form-check-input"
-              id="gender"
-              name="gender"
-              value="female"
-            />
-            Female
-          </label>
-        </div>
-        <br />
+              Female
+            </label>
+          </div>
+          <br />
 
-        <button type="submit" class="btn btn-primary" onclick="onSubmit()">
-          Submit
-        </button>
-      </form>
-    </div>
-    <div class="container-fluid">
-      <p id="output" ></p>
-    </div>
-    
+          <button type="button" class="btn btn-primary" onclick="onSubmit()">
+            Submit
+          </button>
+        </form>
+      </div>
+      <div class="container-fluid">
+        <h2 id="output" class="danger"></h2>
+        <h2 id="error1"></h2>
+      </div>
+
+      <script src="js/script.js"></script>
+    </main>
+
     <footer class="jumbotron">
       <p>Contact us</p>
     </footer>
-    <script src="js/script.js"></script>
   </body>
 </html>

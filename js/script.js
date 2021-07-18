@@ -57,38 +57,38 @@ function onSubmit() {
     console.log(day);
 
     if (gender == "female" && day == 0) {
-        document.getElementById("output").innerHTML = "Your Akan name is Akosua";
+        document.getElementById("output").innerHTML = "-Your Akan name is Akosua";
     } else if (gender == "female" && day == 1) {
-        document.getElementById("output").innerHTML = "Your Akan name is Akosua";
+        document.getElementById("output").innerHTML = "-Your Akan name is Akosua";
     } else if (gender == "female" && day == 2) {
-        document.getElementById("output").innerHTML = "Your Akan name is Adwoa";
+        document.getElementById("output").innerHTML = "-Your Akan name is Adwoa";
     } else if (gender == "female" && day == 3) {
-        document.getElementById("output").innerHTML = "Your Akan name is Abenaa";
+        document.getElementById("output").innerHTML = "-Your Akan name is Abenaa";
     } else if (gender == "female" && day == 4) {
-        document.getElementById("output").innerHTML = "Your Akan name is Akua";
+        document.getElementById("output").innerHTML = "-Your Akan name is Akua";
     } else if (gender == "female" && day == 5) {
-        document.getElementById("output").innerHTML = "Your Akan name is Yaa";
+        document.getElementById("output").innerHTML = "-Your Akan name is Yaa";
     } else if (gender == "female" && day == 6) {
-        document.getElementById("output").innerHTML = "Your Akan name is Afua";
+        document.getElementById("output").innerHTML = "-Your Akan name is Afua";
     } else if (gender == "female" && day == 7) {
-        document.getElementById("output").innerHTML = "Your Akan name is Ama";
+        document.getElementById("output").innerHTML = "-Your Akan name is Ama";
     } else if (gender == "male" && day == 0) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kwasi";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kwasi";
     } else if (gender == "male" && day == 1) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kwasi";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kwasi";
     } else if (gender == "male" && day == 2) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kwadwo";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kwadwo";
     } else if (gender == "male" && day == 3) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kwabena";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kwabena";
     } else if (gender == "male" && day == 4) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kwaku";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kwaku";
     } else if (gender == "male" && day == 5) {
-        document.getElementById("output").innerHTML = "Your Akan name is Yaw";
+        document.getElementById("output").innerHTML = "-Your Akan name is Yaw";
     } else if (gender == "male" && day == 6) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kofi";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kofi";
     } else if (gender == "male" && day == 7) {
-        document.getElementById("output").innerHTML = "Your Akan name is Kwame";
+        document.getElementById("output").innerHTML = "-Your Akan name is Kwame";
     } else {
-        document.getElementById("output").innerHTML = "Missing input";
+        document.getElementById("output").innerHTML = "-Missing input";
     }
 }

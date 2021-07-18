@@ -10,7 +10,6 @@ body{
 }
 .container-fluid{
   background-color: #ccd5ff;
-  margin-right: 50px;
-  margin-left: 30px;
+  margin: 50px;
   border: solid 2px #ffeaae;
 }

@@ -1,15 +1,19 @@
 .jumbotron{
-  background-color: #c884a6;
+  background-color: #ff8200;
   text-align: center;
 }
 .jumbotron h1{
   font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
 }
 body{
-  background-color: #e7bbe3;
+  background-color: #ffc100;
 }
 .container-fluid{
-  background-color: #ccd5ff;
+  background-color: #f7df9e;
   margin: 50px;
-  border: solid 2px #ffeaae;
+  border: solid 2px black;
+}
+form h3{
+  font-weight: lighter;
 }

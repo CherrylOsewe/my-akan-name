@@ -10,7 +10,7 @@
 body{
   background-color: #ffc100;
 }
-.container-fluid{
+.container{
   background-color: #f7df9e;
   margin: 50px;
   border: solid 2px black;
@@ -20,7 +20,7 @@ form h3{
   font-weight: lighter;
   text-decoration: underline;
 }
-.container-fluid h2{
+.container h2{
   text-align: center;
   text-decoration: underline;
   font-weight: bolder;

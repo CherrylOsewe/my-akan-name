@@ -2,7 +2,7 @@
 #### An akan name calculator, 2021
 #### By **Cherryl Osewe**
 ## Description
-This is an application that allows one to input their birthday and gender and have their Ghanain name according to akan tradition be displayed to them.
+This is an application that allows one to input their birthday and gender and have their Ghanain name according to Akan tradition be displayed to them.
 ## Setup/Installation Requirements
 * Clone repository $ git clone https://github.com/CherrylOsewe/my-akan-name.git
 * Open index.html file on your text  editor of choice.

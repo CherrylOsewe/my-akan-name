@@ -10,7 +10,7 @@
 body{
   background-color: #ffc100;
 }
-.container{
+.container-fluid {
   background-color: #f7df9e;
   margin: 50px;
   border: solid 2px black;
